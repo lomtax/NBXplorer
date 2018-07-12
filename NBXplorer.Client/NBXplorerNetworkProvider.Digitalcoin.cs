@@ -15,7 +15,7 @@ namespace NBXplorer
 			});
 		}
 
-		public NBXplorerNetwork GetLTC()
+		public NBXplorerNetwork GetDGC()
 		{
 			return GetFromCryptoCode(NBitcoin.Altcoins.Digitalcoin.Instance.CryptoCode);
 		}
